@@ -1,0 +1,502 @@
+[
+	{
+		"id": 1,
+		"name": "Antarctica",
+		"carbon": 20425
+	},
+	{
+		"id": 2,
+		"name": "Panama",
+		"carbon": 20230
+	},
+	{
+		"id": 3,
+		"name": "Azerbaijan",
+		"carbon": 1200
+	},
+	{
+		"id": 4,
+		"name": "Lesotho",
+		"carbon": 20362
+	},
+	{
+		"id": 5,
+		"name": "Maldives",
+		"carbon": 36318
+	},
+	{
+		"id": 6,
+		"name": "Liechtenstein",
+		"carbon": 13722
+	},
+	{
+		"id": 7,
+		"name": "Holy See (Vatican City State)",
+		"carbon": 12119
+	},
+	{
+		"id": 8,
+		"name": "Bahamas",
+		"carbon": 14838
+	},
+	{
+		"id": 9,
+		"name": "Guinea",
+		"carbon": 2843
+	},
+	{
+		"id": 10,
+		"name": "Afghanistan",
+		"carbon": 18440
+	},
+	{
+		"id": 11,
+		"name": "Albania",
+		"carbon": 11596
+	},
+	{
+		"id": 12,
+		"name": "Guam",
+		"carbon": 31260
+	},
+	{
+		"id": 13,
+		"name": "Norway",
+		"carbon": 36293
+	},
+	{
+		"id": 14,
+		"name": "Switzerland",
+		"carbon": 19608
+	},
+	{
+		"id": 15,
+		"name": "Thailand",
+		"carbon": 32088
+	},
+	{
+		"id": 16,
+		"name": "Tajikistan",
+		"carbon": 35818
+	},
+	{
+		"id": 17,
+		"name": "Macao",
+		"carbon": 11301
+	},
+	{
+		"id": 18,
+		"name": "Ethiopia",
+		"carbon": 18387
+	},
+	{
+		"id": 19,
+		"name": "Guyana",
+		"carbon": 32173
+	},
+	{
+		"id": 20,
+		"name": "Guam",
+		"carbon": 10010
+	},
+	{
+		"id": 21,
+		"name": "Mayotte",
+		"carbon": 19580
+	},
+	{
+		"id": 22,
+		"name": "United Arab Emirates",
+		"carbon": 332132
+	},
+	{
+		"id": 23,
+		"name": "Aland Islands",
+		"carbon": 39705
+	},
+	{
+		"id": 24,
+		"name": "Mali",
+		"carbon": 156309
+	},
+	{
+		"id": 25,
+		"name": "Haiti",
+		"carbon": 23364
+	},
+	{
+		"id": 26,
+		"name": "American Samoa",
+		"carbon": 2133
+	},
+	{
+		"id": 27,
+		"name": "Oman",
+		"carbon": 276539
+	},
+	{
+		"id": 28,
+		"name": "Lithuania",
+		"carbon": 25329
+	},
+	{
+		"id": 29,
+		"name": "Canada",
+		"carbon": 12673
+	},
+	{
+		"id": 30,
+		"name": "Gambia",
+		"carbon": 35601
+	},
+	{
+		"id": 31,
+		"name": "Bosnia and Herzegovina",
+		"carbon": 2078
+	},
+	{
+		"id": 32,
+		"name": "Côte D'Ivoire (Ivory Coast)",
+		"carbon": 37491
+	},
+	{
+		"id": 33,
+		"name": "Cape Verde",
+		"carbon": 18523
+	},
+	{
+		"id": 34,
+		"name": "Andorra",
+		"carbon": 5048
+	},
+	{
+		"id": 35,
+		"name": "South Africa",
+		"carbon": 19247
+	},
+	{
+		"id": 36,
+		"name": "Bangladesh",
+		"carbon": 39987
+	},
+	{
+		"id": 37,
+		"name": "Bhutan",
+		"carbon": 19945
+	},
+	{
+		"id": 38,
+		"name": "Luxembourg",
+		"carbon": 3117
+	},
+	{
+		"id": 39,
+		"name": "Indonesia",
+		"carbon": 18556
+	},
+	{
+		"id": 40,
+		"name": "Moldova",
+		"carbon": 27599
+	},
+	{
+		"id": 41,
+		"name": "Bulgaria",
+		"carbon": 1562
+	},
+	{
+		"id": 42,
+		"name": "Korea, North",
+		"carbon": 24788
+	},
+	{
+		"id": 43,
+		"name": "Tanzania",
+		"carbon": 24667
+	},
+	{
+		"id": 44,
+		"name": "Kenya",
+		"carbon": 23511
+	},
+	{
+		"id": 45,
+		"name": "Georgia",
+		"carbon": 36863
+	},
+	{
+		"id": 46,
+		"name": "Colombia",
+		"carbon": 36700
+	},
+	{
+		"id": 47,
+		"name": "Brazil",
+		"carbon": 22282
+	},
+	{
+		"id": 48,
+		"name": "Wallis and Futuna",
+		"carbon": 26173
+	},
+	{
+		"id": 49,
+		"name": "Philippines",
+		"carbon": 17646
+	},
+	{
+		"id": 50,
+		"name": "Saint Kitts and Nevis",
+		"carbon": 24679
+	},
+	{
+		"id": 51,
+		"name": "Norway",
+		"carbon": 26374
+	},
+	{
+		"id": 52,
+		"name": "Saudi Arabia",
+		"carbon": 21443
+	},
+	{
+		"id": 53,
+		"name": "Nicaragua",
+		"carbon": 11481
+	},
+	{
+		"id": 54,
+		"name": "Brunei",
+		"carbon": 35858
+	},
+	{
+		"id": 55,
+		"name": "Western Sahara",
+		"carbon": 21196
+	},
+	{
+		"id": 56,
+		"name": "Mayotte",
+		"carbon": 3758
+	},
+	{
+		"id": 57,
+		"name": "Haiti",
+		"carbon": 22240
+	},
+	{
+		"id": 58,
+		"name": "Sweden",
+		"carbon": 13216
+	},
+	{
+		"id": 59,
+		"name": "Niger",
+		"carbon": 26128
+	},
+	{
+		"id": 60,
+		"name": "Senegal",
+		"carbon": 2508
+	},
+	{
+		"id": 61,
+		"name": "French Guiana",
+		"carbon": 11666
+	},
+	{
+		"id": 62,
+		"name": "Lesotho",
+		"carbon": 11062
+	},
+	{
+		"id": 63,
+		"name": "Romania",
+		"carbon": 29386
+	},
+	{
+		"id": 64,
+		"name": "Saint Vincent and The Grenadines",
+		"carbon": 37640
+	},
+	{
+		"id": 65,
+		"name": "Uganda",
+		"carbon": 39579
+	},
+	{
+		"id": 66,
+		"name": "Austria",
+		"carbon": 30195
+	},
+	{
+		"id": 67,
+		"name": "Comoros",
+		"carbon": 19888
+	},
+	{
+		"id": 68,
+		"name": "Portugal",
+		"carbon": 24593
+	},
+	{
+		"id": 69,
+		"name": "Burundi",
+		"carbon": 27220
+	},
+	{
+		"id": 70,
+		"name": "Saint Pierre and Miquelon",
+		"carbon": 22876
+	},
+	{
+		"id": 71,
+		"name": "Bahrain",
+		"carbon": 23583
+	},
+	{
+		"id": 72,
+		"name": "Saint Pierre and Miquelon",
+		"carbon": 22069
+	},
+	{
+		"id": 73,
+		"name": "Macedonia",
+		"carbon": 32612
+	},
+	{
+		"id": 74,
+		"name": "Northern Mariana Islands",
+		"carbon": 28166
+	},
+	{
+		"id": 75,
+		"name": "Lebanon",
+		"carbon": 1330
+	},
+	{
+		"id": 76,
+		"name": "Mayotte",
+		"carbon": 25619
+	},
+	{
+		"id": 77,
+		"name": "Tajikistan",
+		"carbon": 13004
+	},
+	{
+		"id": 78,
+		"name": "Tunisia",
+		"carbon": 1637
+	},
+	{
+		"id": 79,
+		"name": "Congo, the Democratic Republic of the",
+		"carbon": 3366
+	},
+	{
+		"id": 80,
+		"name": "Argentina",
+		"carbon": 22930
+	},
+	{
+		"id": 81,
+		"name": "Sao Tome and Principe",
+		"carbon": 6998
+	},
+	{
+		"id": 82,
+		"name": "Guyana",
+		"carbon": 28334
+	},
+	{
+		"id": 83,
+		"name": "Anguilla",
+		"carbon": 14670
+	},
+	{
+		"id": 84,
+		"name": "Somalia",
+		"carbon": 20179
+	},
+	{
+		"id": 85,
+		"name": "Central African Republic",
+		"carbon": 7893
+	},
+	{
+		"id": 86,
+		"name": "Slovenia",
+		"carbon": 24556
+	},
+	{
+		"id": 87,
+		"name": "Reunion",
+		"carbon": 36785
+	},
+	{
+		"id": 88,
+		"name": "American Samoa",
+		"carbon": 14019
+	},
+	{
+		"id": 89,
+		"name": "Greenland",
+		"carbon": 21020
+	},
+	{
+		"id": 90,
+		"name": "Georgia",
+		"carbon": 33040
+	},
+	{
+		"id": 91,
+		"name": "Venezuela",
+		"carbon": 22054
+	},
+	{
+		"id": 92,
+		"name": "Maldives",
+		"carbon": 29493
+	},
+	{
+		"id": 93,
+		"name": "France",
+		"carbon": 36329
+	},
+	{
+		"id": 94,
+		"name": "Comoros",
+		"carbon": 14118
+	},
+	{
+		"id": 95,
+		"name": "Virgin Islands, United States",
+		"carbon": 16684
+	},
+	{
+		"id": 96,
+		"name": "Israel",
+		"carbon": 31081
+	},
+	{
+		"id": 97,
+		"name": "Western Sahara",
+		"carbon": 20021
+	},
+	{
+		"id": 98,
+		"name": "Kuwait",
+		"carbon": 26546
+	},
+	{
+		"id": 99,
+		"name": "Colombia",
+		"carbon": 13725
+	},
+	{
+		"id": 100,
+		"name": "Sri Lanka",
+		"carbon": 20843
+	}
+]

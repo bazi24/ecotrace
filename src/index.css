@@ -1,3 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+@layer components {
+
+  .mybtn {
+    @apply inline-flex pr-4 pl-4 pt-2 pb-2 font-bold rounded-xl 
+  }
+}
