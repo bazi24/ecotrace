@@ -32,7 +32,7 @@ const Table = () => {
   }
   sortData(selectedData);
   return (
-    <>
+    <div>
       <div className="flex place-content-center">
         <button
           className={
@@ -55,8 +55,8 @@ const Table = () => {
           Company Data
         </button>
       </div>
-      <div className="overflow-x-auto m-4 sm:ml-20 sm:mr-20 bg-green-100 font-medium">
-        <table className="table">
+      <div className="flex overflow-x-auto m-4 md:ml-20 md:mr-20 bg-white font-medium rounded-xl md:w-[800px]">
+        <table className="table flex">
           {/* head */}
           <thead>
             <tr>
@@ -123,7 +123,7 @@ const Table = () => {
           </tbody>
         </table>
       </div>
-    </>
+    </div>
   );
 };
 

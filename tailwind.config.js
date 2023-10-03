@@ -6,7 +6,6 @@ export default {
       fontFamily: {
         primary: ["Montserrat"],
       },
-
       colors: {
         green: {
           50: "#e8f9ea",
