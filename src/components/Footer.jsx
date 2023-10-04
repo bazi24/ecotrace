@@ -1,10 +1,11 @@
 const Footer = () => {
-  const items = ["Impressum", "Datenschutz", "Kontakt"];
+  const items = ["impressum", "datenschutz", "contact"];
   return (
     <footer className="flex w-[100%] place-content-center uppercase text-sm font-bold text-green-800">
       {items.map((item) => (
         <a
-          className="pl-8 pr-8 pt-1 pb-1 cursor-pointer hover:underline"
+          href={item}
+          className="pl-4 pr-4 pt-1 pb-1 cursor-pointer hover:underline"
           key={item}
         >
           {item}
