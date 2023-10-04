@@ -9,7 +9,7 @@ const LandingPage = () => {
       <div className="h-[100vh]">
         <div className="inline-block relative md:ml-20 mt-[84px] md:top-[50%] md:-mt-[300px] h-[320px] text-green-800 z-10 ">
           <h1 className="text-6xl z-10 font-black lg:text-9xl">ecotrace</h1>
-          <div className="-mt-4 lg:-mt-8 -z-10 bg-gradient-to-r from-green-400 to-green-600 rounded-lg h-3 lg:h-5 w-[292px] lg:w-[590px]"></div>
+          <div className="-mt-4 lg:-mt-8 -z-10 bg-gradient-to-r from-green-400 to-green-500 rounded-lg h-3 lg:h-5 w-[292px] lg:w-[590px]"></div>
           <h2 className="text-2xl lg:text-[33px] font-bold mt-2 uppercase">
             Tracking the worlds emissions
           </h2>
@@ -29,7 +29,7 @@ const LandingPage = () => {
               to find out!
             </p>
           </h3>
-          <button className="pl-10 pr-10 pt-3 pb-3 bg-gradient-to-r absolute from-green-400 to-green-600 text-green-800 text-lg font-bold rounded-2xl hover:border-2 border-green-100 hover:text-green-100 transition-colors">
+          <button className="pl-10 pr-10 pt-3 pb-3 bg-gradient-to-r absolute from-green-400 to-green-500 text-green-800 text-lg font-bold rounded-2xl hover:border-2 border-green-100 hover:text-green-100 transition-colors">
             <BiDonateHeart className="inline-flex w-6 h-6 mr-2 -mt-1" />
             Donate
           </button>
