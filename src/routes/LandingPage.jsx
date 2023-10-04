@@ -29,7 +29,10 @@ const LandingPage = () => {
               to find out!
             </p>
           </h3>
-          <button className="pl-10 pr-10 pt-3 pb-3 bg-gradient-to-r absolute from-green-400 to-green-500 text-green-800 text-lg font-bold rounded-2xl hover:border-2 border-green-100 hover:text-green-100 transition-colors">
+          <button
+            onClick={() => alert("Danke!")}
+            className="pl-10 pr-10 pt-3 pb-3 absolute bg-gradient-to-r from-green-400 to-green-500 text-green-800 text-lg font-bold rounded-2xl hover:border-2 border-green-100 hover:text-green-100 transition-colors"
+          >
             <BiDonateHeart className="inline-flex w-6 h-6 mr-2 -mt-1" />
             Donate
           </button>
@@ -40,7 +43,7 @@ const LandingPage = () => {
             className="h-[1000px] absolute right-20 top-[50%] z-1 -mt-[500px] opacity-70"
           />
         </div>
-        <div className="absolute text-center left-[50%] -ml-[160px] w-[320px] bottom-[20px] text-green-100 text-2xl uppercase font-bold">
+        <div className="absolute text-center left-[50%] drop-shadow-md -ml-[160px] w-[320px] bottom-[20px] text-green-50 text-2xl uppercase font-bold">
           <p>the 100 dirtiest </p>
           <p>countries & Companies</p>
 

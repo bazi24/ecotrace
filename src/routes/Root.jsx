@@ -1,16 +1,61 @@
 import { Outlet } from "react-router-dom";
+import { useState } from "react";
 import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+import NavbarLTR from "../components/NavbarLTR";
+import NavbarRTL from "../components/NavbarRTL";
+import axios from "axios";
+import rtlCountries from "../data/rtl-countries.json";
 
-const Root = () => (
-  <main className="font-primary bg-gradient-to-b from-green-200 to-green-400">
-    <Navbar />
-    <section className="p-4 mt-8">
-      <Outlet />
-    </section>
-    <section className="mt-4 ">
-      <Footer />
-    </section>
-  </main>
-);
+const Root = () => {
+  const [message, setMessage] = useState("");
+  const [culture, setCulture] = useState("ltr");
+
+  const getLocation = () => {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(getCountry);
+    } else {
+      setMessage("Geolocation is not supported by this browser.");
+    }
+  };
+  getLocation();
+
+  function getCountry(position) {
+    let lat = position.coords.latitude;
+    let lon = position.coords.longitude;
+    const config = {
+      method: "get",
+      url:
+        "https://api.geoapify.com/v1/geocode/reverse?lat=" +
+        lat +
+        "&lon=" +
+        lon +
+        "&apiKey=9ab890d4bb594743b3182a66ce5e2979",
+      headers: {},
+    };
+    axios(config)
+      .then(function (response) {
+        // Prüfen, ob der Nutzer in einem Land sitzt, in dem von rechts nach links gelesen wird
+        if (rtlCountries.includes(response.data.features[0].properties.country))
+          setCulture("rtl");
+        // wenn ja dann wird der state von culture auf RTL right to left gesetzt
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
+  }
+
+  return (
+    <main className="font-primary bg-gradient-to-b from-green-100 to-green-400">
+      {/* Abhängig von der Kultur des Besuchers werden zwei unterschiedliche Navbars geladen */}
+      {culture === "rtl" ? <NavbarLTR /> : <NavbarRTL />}
+      <section className="p-4 mt-8">
+        <p>{message}</p>
+        <Outlet />
+      </section>
+      <section className="mt-4 ">
+        <Footer />
+      </section>
+    </main>
+  );
+};
 export default Root;
