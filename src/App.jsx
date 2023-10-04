@@ -8,14 +8,14 @@ import { BiDonateHeart } from "react-icons/bi";
 const App = () => (
   <main className="font-primary bg-gradient-to-b from-green-200 to-green-600">
     <Navbar />
-    <section className="p-4 mb-8 mt-8 h-[100vh] md:ml-20">
+    <section className="p-4 mt-8 h-[100vh] md:ml-20">
       <div className="inline-block relative top-[50%] -mt-[300px] h-[320px] text-green-800 z-20 ">
-        <h1 className="text-6xl z-10 font-bold lg:text-9xl">ecotrace</h1>
-        <div className="-mt-3 lg:-mt-7 -z-10 bg-gradient-to-r from-green-400 to-green-600 rounded-lg h-3 lg:h-5 w-[292px] lg:w-[630px]"></div>
-        <h2 className="text-2xl lg:text-[33px] font-bold mb-3 uppercase">
+        <h1 className="text-6xl z-10 font-black lg:text-9xl">ecotrace</h1>
+        <div className="-mt-4 lg:-mt-8 -z-10 bg-gradient-to-r from-green-400 to-green-600 rounded-lg h-3 lg:h-5 w-[292px] lg:w-[590px]"></div>
+        <h2 className="text-2xl lg:text-[33px] font-bold mt-2 uppercase">
           Tracking the worlds emissions
         </h2>
-        <h3 className="text-md lg:text-xl font-medium mb-4">
+        <h3 className="text-md lg:text-xl font-medium mb-4 mt-4">
           Support our goal of true transparency in carbon emissions around the
           globe.
           <p>
@@ -39,18 +39,20 @@ const App = () => (
       <div className="hidden md:inline-flex w-[50%]">
         <img
           src={img}
-          className="h-[1000px] absolute right-20 top-[50%] -mt-[500px] opacity-80"
+          className="h-[1000px] absolute right-20 top-[50%] -mt-[500px] opacity-70"
         />
       </div>
       <div className="absolute text-center left-[50%] -ml-[200px] w-[400px] bottom-[40px] text-green-100 text-2xl uppercase font-bold">
-        <p>the 100 dirtiest countries & Companies</p>
+        <p>the 100 dirtiest </p>
+        <p>countries & Companies</p>
+
         <FaAnglesDown className="inline-block bounce h-10 w-10 realtive ml-5 mt-8 left-[50%] " />
       </div>
     </section>
     <section className="place-content-center flex">
       <Table />
     </section>
-    <section className="mt-4 bg-green-100">
+    <section className="mt-4 ">
       <Footer />
     </section>
   </main>

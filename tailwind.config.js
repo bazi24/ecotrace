@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        primary: ["Montserrat"],
+        primary: ["Nunito"],
       },
       colors: {
         green: {

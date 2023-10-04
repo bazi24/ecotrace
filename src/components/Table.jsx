@@ -55,14 +55,14 @@ const Table = () => {
           Company Data
         </button>
       </div>
-      <div className="flex overflow-x-auto m-4 md:ml-20 md:mr-20 bg-white font-medium rounded-xl md:w-[800px]">
-        <table className="table flex">
+      <div className="flex overflow-x-auto m-4 md:ml-20 md:mr-20 bg-white font-medium rounded-xl md:w-[800px] lg:w-[1000px]">
+        <table className="table flex text-green-700 text-[15px]">
           {/* head */}
           <thead>
             <tr>
               <th>% Share</th>
               <th
-                className="cursor-pointer hover:text-green-800"
+                className="cursor-pointer hover:text-green-800 "
                 onClick={() => {
                   setSortBy("name");
                   sortData(selectedData);
@@ -112,7 +112,7 @@ const Table = () => {
           </thead>
           <tbody>
             {selectedData.map((data) => (
-              <tr key={data.id}>
+              <tr key={data.id} className="border-slate-200">
                 <td key={data.id + 100}>
                   {(data.carbon / (all / 100)).toFixed(2)}
                 </td>

@@ -1,11 +1,11 @@
 // eslint-disable-next-line react/prop-types
 const MenuButton = ({ className }) => {
   return (
-    <summary className={`m-1 btn ${className}`}>
+    <summary className={`bg-green-300 border-none m-1 ml-3 btn ${className}`}>
       <svg
         fill="none"
         viewBox="0 0 24 24"
-        className="inline-block w-5 h-5 stroke-current"
+        className="inline-block w-5 h-5 stroke-green-800"
       >
         <path
           strokeLinecap="round"
