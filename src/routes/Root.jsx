@@ -47,7 +47,7 @@ const Root = () => {
   return (
     <main className="font-primary bg-gradient-to-b from-green-100 to-green-400">
       {/* Abhängig von der Kultur des Besuchers werden zwei unterschiedliche Navbars geladen */}
-      {culture === "rtl" ? <NavbarLTR /> : <NavbarRTL />}
+      {culture === "ltr" ? <NavbarLTR /> : <NavbarRTL />}
       <section className="p-4 mt-8">
         <p>{message}</p>
         <Outlet />
