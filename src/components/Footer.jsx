@@ -1,7 +1,7 @@
 const Footer = () => {
   const items = ["impressum", "datenschutz", "contact"];
   return (
-    <footer className="w-[100%] text-sm font-bold text-green-800">
+    <footer className="w-[100%] h-[60px] text-sm font-bold text-green-800">
       <div className="h-[1px] w-[90%] ml-[5%] bg-green-800"></div>
       <ul className="flex pt-1 pb-1 w-[100%] uppercase mt-2">
         {items.map((item) => (
