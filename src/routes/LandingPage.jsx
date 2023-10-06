@@ -7,7 +7,7 @@ const LandingPage = () => {
   return (
     <>
       <div className="h-[100vh]">
-        <div className="inline-block relative md:ml-20 mt-[84px] md:top-[50%] md:-mt-[300px] h-[320px] text-green-800 z-10 ">
+        <div className="inline-block p-3 text-sm md:text-md relative md:ml-20 mt-[84px] md:top-[50%] md:-mt-[300px]  text-green-800 z-10 ">
           <h1 className="text-6xl z-10 font-black lg:text-9xl">ecotrace</h1>
           <div className="-mt-4 lg:-mt-8 -z-10 bg-gradient-to-r from-green-400 to-green-500 rounded-lg h-3 lg:h-5 w-[292px] lg:w-[590px]"></div>
           <h2 className="text-2xl lg:text-[33px] font-bold mt-2 uppercase">

@@ -37,8 +37,8 @@ const Table = () => {
         <button
           className={
             selectedData === countryData
-              ? "bg-green-600 mybtn text-green-100"
-              : "bg-green-100 mybtn hover:bg-green-600 hover:text-green-100"
+              ? "bg-green-600 mybtn text-green-50"
+              : "bg-green-50 mybtn hover:bg-green-600 hover:text-green-50"
           }
           onClick={() => setSelectedData(countryData)}
         >
@@ -47,8 +47,8 @@ const Table = () => {
         <button
           className={
             selectedData === companyData
-              ? "bg-green-600 mybtn ml-2 text-green-100"
-              : "bg-green-100 mybtn ml-2 hover:bg-green-600 hover:text-green-100"
+              ? "bg-green-600 mybtn ml-2 text-green-50"
+              : "bg-green-50 mybtn ml-2 hover:bg-green-600 hover:text-green-50"
           }
           onClick={() => setSelectedData(companyData)}
         >
