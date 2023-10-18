@@ -19,7 +19,7 @@ const LandingPage = () => {
             globe.
             <p>
               Let us save the planet together! Even small Donations as low as 5$
-              help a lot!
+              help us a lot!
             </p>
             <p>
               {" "}
