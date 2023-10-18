@@ -15,7 +15,7 @@ const LandingPage = () => {
             Tracking the worlds emissions
           </h2>
           <h3 className="text-md lg:text-xl font-medium mb-4 mt-4">
-            Support our goal of true transparency in carbon emissions around the
+            Support our goal of true transparency of carbon emissions around the
             globe.
             <p>
               Let us save the planet together! Even small Donations as low as 5$
