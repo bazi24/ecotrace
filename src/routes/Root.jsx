@@ -8,8 +8,10 @@ import rtlCountries from "../data/rtl-countries.json";
 
 const Root = () => {
   const [message, setMessage] = useState("");
+
   const [culture, setCulture] = useState("ltr");
 
+  // HTML 5 Geolocation nutzen, um die Koordinaten des Nutzers zu bekommen
   const getLocation = () => {
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(getCountry);
@@ -19,6 +21,7 @@ const Root = () => {
   };
   getLocation();
 
+  // Koordinaten durch eine API abgleichen und so das Land des Nutzers rausfinden
   function getCountry(position) {
     let lat = position.coords.latitude;
     let lon = position.coords.longitude;
@@ -47,7 +50,7 @@ const Root = () => {
   return (
     <main className="font-primary bg-gradient-to-b from-green-200 to-green-300">
       {/* Abhängig von der Kultur des Besuchers werden zwei unterschiedliche Navbars geladen */}
-      {culture === "ltr" ? <NavbarLTR /> : <NavbarRTL />}
+      <header>{culture === "ltr" ? <NavbarLTR /> : <NavbarRTL />}</header>
       <section className="pt-8">
         {message}
         <Outlet />

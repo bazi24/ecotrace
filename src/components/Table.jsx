@@ -1,10 +1,12 @@
-import { useState } from "react";
 import countryData from "../data/country-data.json";
 import companyData from "../data/company-data.json";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 
+import { useState } from "react";
+
 const Table = () => {
   const [selectedData, setSelectedData] = useState(countryData);
+
   const [sortBy, setSortBy] = useState("carbon");
   const [sortOrder, setSortOrder] = useState("descending");
 
@@ -30,9 +32,10 @@ const Table = () => {
       });
     }
   }
+
   sortData(selectedData);
   return (
-    <div className="w-[100%] lg:w-[60%]">
+    <div className="w-[90%] lg:w-[60%]">
       <div className="flex place-content-center">
         <button
           className={
@@ -113,11 +116,9 @@ const Table = () => {
           <tbody>
             {selectedData.map((data) => (
               <tr key={data.id} className="border-slate-200">
-                <td key={data.id + 100}>
-                  {(data.carbon / (all / 100)).toFixed(2)}
-                </td>
-                <td key={data.id + 101}>{data.name}</td>
-                <td key={data.id + 102}>{data.carbon}</td>
+                <td>{(data.carbon / (all / 100)).toFixed(2)}</td>
+                <td>{data.name}</td>
+                <td>{data.carbon}</td>
               </tr>
             ))}
           </tbody>
