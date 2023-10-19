@@ -7,24 +7,24 @@ const LandingPage = () => {
   return (
     <>
       <div className="h-[100vh]">
-        <div className="inline-block p-3 text-sm md:text-md relative md:ml-20 mt-[84px] md:top-[50%] md:-mt-[300px]  text-green-800 z-10 ">
+        <div className="inline-block p-3 text-sm md:text-md relative md:ml-20 mt-[20%] md:top-[50%] md:-mt-[300px]  text-green-800 z-10 ">
           <h1 className="text-6xl z-10 font-black lg:text-9xl">ecotrace</h1>
           <div className="-mt-4 lg:-mt-8 -z-10 bg-gradient-to-r from-green-400 to-green-500 rounded-lg h-3 lg:h-5 w-[292px] lg:w-[590px]"></div>
 
           <h2 className="text-2xl lg:text-[33px] font-bold mt-2 uppercase">
             Tracking the worlds emissions
           </h2>
-          <h3 className="text-md lg:text-xl font-medium mb-4 mt-4">
+          <h3 className="text-md lg:text-xl font-medium mb-3 mt-3">
             Support our goal of true transparency of carbon emissions around the
             globe.
             <p>
-              Let us save the planet together! Even small Donations as low as 5$
-              help us a lot!
+              Let us save the planet together! Even small Donations help us a
+              lot!
             </p>
             <p>
               {" "}
               Want so see how your Donations are used? Click{" "}
-              <a className="underline" href="#">
+              <a className="underline" href="/donations">
                 here
               </a>{" "}
               to find out!
@@ -44,7 +44,7 @@ const LandingPage = () => {
             className="h-[1000px] absolute right-20 top-[50%] z-1 -mt-[500px] opacity-70"
           />
         </div>
-        <div className="absolute text-center left-[50%] drop-shadow-md -ml-[160px] w-[320px] bottom-[20px] text-green-50 text-2xl uppercase font-bold">
+        <div className="absolute text-center left-[50%] drop-shadow-md -ml-[160px] w-[320px] bottom-[5px] text-green-50 text-2xl uppercase font-bold">
           <p>the 100 dirtiest </p>
           <p>countries & Companies</p>
 
