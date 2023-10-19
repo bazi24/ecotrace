@@ -16,11 +16,8 @@ const LandingPage = () => {
           </h2>
           <h3 className="text-md lg:text-xl font-medium mb-3 mt-3">
             Support our goal of true transparency of carbon emissions around the
-            globe.
-            <p>
-              Let us save the planet together! Even small Donations help us a
-              lot!
-            </p>
+            globe. Let us save the planet together! Even small Donations help us
+            a lot!
             <p>
               {" "}
               Want so see how your Donations are used? Click{" "}
